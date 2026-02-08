@@ -1,9 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    background-color: #8bf3f3;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book, .join {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.msg p {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: .8em;
+    padding: 10px;
+    background-color: rgb(62, 133, 155);
+    line-height: 1.5em;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    border: 10px solid black
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 #element {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -33,6 +87,7 @@ nav a:hover {
 }
 .book, .join {
     background-color: rgb(14, 174, 202);
+    padding: 15px 30px;
 }
 .book:hover, .join:hover {
     background-color: rgb(37, 194, 204);
@@ -42,9 +97,11 @@ nav a:hover {
 }
 .msg {
     background-color: rgb(20, 111, 129);
+    padding: 35px;
 }
 footer {
     background-color: rgb(21, 143, 180);
+    margin-top: 200px;
 }
 nav a:hover {
     background-color: black;
@@ -55,7 +112,7 @@ nav a {
     color: #bbbbbb;
 }    
 .home-title {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #bbbbbb;
 }    
 h4 {
@@ -77,10 +134,12 @@ h4 {
 .msg p {
     background-color: black;
     color: #bbbbbb;
+    padding-bottom: 15px;
 }    
 footer {
     background-color: black;
     color: #bbbbbb;
+    padding: 25px 50px;
 }    
 footer a {
     background-color: black;
@@ -92,6 +151,7 @@ footer a:hover {
 }    
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -117,3 +177,7 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
